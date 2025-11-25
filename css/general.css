@@ -89,8 +89,6 @@ footer a {
     color: white;
     display: inline-block;
     padding: 8px;
-    text-decoration: none;
-    text-decoration: underline;
 }
 
 footer a:hover, a:focus {
