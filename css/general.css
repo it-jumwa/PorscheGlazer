@@ -17,16 +17,6 @@ header {
     align-items: center;
 }
 
-#title {
-    color: black;
-}
-
-#title:hover, #title:focus {
-    background-color: white;
-    color: #e00000;
-    transition: .3s ease;
-}
-
 #home-icon {
     translate: 0 -7px;
     margin: 0;
