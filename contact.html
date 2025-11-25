@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <h1>Porsche Glazer #1</h1>
+        <label for="hamburger-checkbox" title="Menu">
+            <i class="material-icons" id="hamburger-icon">menu</i>
+        </label>
+        <input type="checkbox" id="hamburger-checkbox">
+        <nav>
+            <a href="index.html">
+                <i class="material-icons" id="home-icon">home</i>
+            </a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active-nav">Contact</a>
+        </nav>
+    </header>
+
+    <form id="contact-form" method="post">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname" autocomplete="given-name">
+
+        <label for="lname">Last Name: </label><br>
+        <input type="text" id="lname" name="lname" autocomplete="family-name"><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" autocomplete="email"><br>
+
+        <label for="mobile">Mobile: </label>
+        <input type="tel" id="mobile" name="mobile" autocomplete="tel"><br>
+
+        <label for="message">Message: </label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset" id="reset">Reset</button>
+    </form>
+
+    <footer>
+        Porsche Glazer #1 by Jaimee Molina is marked
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+        <img class="icon" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="Creative Commons Icon">
+        <img class="icon" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="No Rights Reserved Icon">
+    </footer>
+</body>
+</html>

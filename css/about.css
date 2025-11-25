@@ -1,0 +1,71 @@
+main > div {
+    background-color: lightgray;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: left;
+}
+
+main > div > h2 > h3 {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+main > div > p {
+    font-size: 18px;
+}
+
+main {
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+    '.'
+    '.'
+    '.'
+    '.'
+    '.'
+    '.';
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.attribution {
+    background: black;
+    color: white;
+}
+
+.attribution a {
+    color: white;
+}
+
+/* Large Devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #container2 {
+        grid-area: area 2;
+    }
+
+    #container3 {
+        grid-area: area3;
+    }
+
+    main {
+        grid-template-areas: 
+        '.area3.'
+        'area2 area3.'
+        'area2 area3.';
+    }    
+}

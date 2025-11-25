@@ -1,0 +1,80 @@
+/* Mobile First View */
+aside {
+    font-size: 120%;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+aside a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+}
+
+#subheading {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.3em;
+}
+
+.external-link {
+    display: flex;
+}
+
+aside a:focus, a:hover {
+    background-color: #e00000;
+    color: black;
+    transition: .3s ease;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+section {
+    background-color: white;
+}
+
+article {
+    font-size: 120%;
+    padding: 0 10px;
+}
+
+article a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+article a:hover, a:focus {
+    background-color: #e00000;
+    color: black
+}
+
+/* Medium Devices (Landscape tablets, 768px and up */
+@media only screen and (min-width: 768px) {
+    main {
+    display: flex;
+    }   
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        justify-content: center;
+        width: 30%
+    }
+
+    section {
+        display: inline;
+        float: right;
+        width: 70%;
+    }
+}

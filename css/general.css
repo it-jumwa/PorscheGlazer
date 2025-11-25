@@ -1,0 +1,141 @@
+/* Mobile First View */
+* { box-sizing: border-box;
+}
+
+body {
+    font-family: 'Porsche Next','Arial Narrow',Arial,'Heiti SC',SimHei,sans-serif;
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    color: black;
+}
+
+#title:hover, #title:focus {
+    background-color: white;
+    color: #e00000;
+    transition: .3s ease;
+}
+
+#home-icon {
+    translate: 0 -7px;
+    margin: 0;
+    padding: 0;
+}
+
+#hamburger-checkbox {
+    display: none;
+}
+
+/* Show or hide the menu */
+#hamburger-checkbox:not(:checked) + nav {
+    display: none;
+}
+
+#hamburger-icon {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 2em;
+    float: right;
+    transform: translate(0, 16%);
+}
+
+nav a {
+    float: left;
+    font-size: 17px;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    height: 80px
+}
+
+/* Invert colours on mouse hover and tab key focus*/
+nav a:hover, a:focus {
+    background-color: #e00000;
+    color: black;
+    transition: .3s ease;
+}
+
+/* Make the current link highlighted */
+.active-nav {
+    background-color: #555557;
+    color: white;
+    height: 80px;
+}
+
+footer {
+    border-top: 1px solid white;
+    background: #000000;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+footer a:hover, a:focus {
+    background-color: #e00000;
+}
+
+footer .icon {
+    max-width: 1em;
+    max-height: 1em;
+    margin-left: .2em;
+}
+
+h1 {
+    float: left;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Medium devices (landscape tablets, 768px and up */
+@media only screen and (min-width: 768px) {
+    /* Hides the hamburger menu */
+    #hamburger-icon {
+        display: none;
+    }
+
+    /* Show the nav links */
+    #hamburger-checkbox:not(:checked) + nav {
+        display: block;
+    }
+
+    h1 {
+        text-align: left;
+        width: 390px;
+    }
+
+    nav {
+        float: right;
+    }
+
+    nav a {
+        width: auto;
+    }
+
+    .material-icons {
+    transform: translate(0, 24%);
+    }
+}
