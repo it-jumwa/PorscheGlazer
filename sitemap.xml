@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--   Index   -->
+    <url>
+        <loc>https://it-jumwa.github.io/PorscheGlazer/</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+    </url>
+<!--   Photos   -->
+    <url>
+        <loc>https://it-jumwa.github.io/PorscheGlazer/photos.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+<!--   About   -->
+    <url>
+        <loc>https://it-jumwa.github.io/PorscheGlazer/about.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+<!--   Contact   -->
+    <url>
+        <loc>https://it-jumwa.github.io/PorscheGlazer/contact.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
+    </url>
+</urlset>
