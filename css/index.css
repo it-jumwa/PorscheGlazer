@@ -3,7 +3,6 @@ aside {
     font-size: 120%;
     padding: 10px 0;
     text-align: center;
-    width: 100%;
     background-color: white;
     color: black;
 }
@@ -19,6 +18,12 @@ aside a {
     font-size: 1.2em;
 }
 
+aside a:focus, a:hover {
+    background-color: #e00000;
+    color: black;
+    transition: .3s ease;
+}
+
 #subheading {
     margin: 0;
     padding: 20px 0;
@@ -27,12 +32,6 @@ aside a {
 
 .external-link {
     display: flex;
-}
-
-aside a:focus, a:hover {
-    background-color: #e00000;
-    color: black;
-    transition: .3s ease;
 }
 
 #hero-image {
@@ -69,12 +68,12 @@ article a:hover, a:focus {
         flex-direction: column;
         float: left;
         justify-content: center;
-        width: 30%
+        width: 40%
     }
 
     section {
         display: inline;
         float: right;
-        width: 70%;
+        width: 60%;
     }
 }
