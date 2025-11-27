@@ -29,7 +29,7 @@ aside a:focus, a:hover {
 
 #subheading {
     margin: 0;
-    padding: 20px 0;
+    padding: 20px;
     font-size: 1.3em;
 }
 
@@ -72,6 +72,7 @@ article a:hover, a:focus {
     aside a {
         display: block;
         text-wrap: nowrap;
+        padding: 20px 8vw;
     }
 
     section {
