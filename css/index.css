@@ -6,6 +6,10 @@ aside {
     color: black;
 }
 
+aside a .material-icons {
+    transform: translate(0, 20%);
+}
+
 aside a {
     display: block;
     text-align: center;
