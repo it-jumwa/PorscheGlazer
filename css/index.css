@@ -1,7 +1,6 @@
 /* Mobile First View */
 aside {
     font-size: 120%;
-    padding: 10px 0;
     text-align: center;
     background-color: white;
     color: black;
@@ -10,7 +9,7 @@ aside {
 aside a {
     display: block;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
     text-decoration: none;
     width: 100%;
     background-color: white;
@@ -28,10 +27,6 @@ aside a:focus, a:hover {
     margin: 0;
     padding: 20px 0;
     font-size: 1.3em;
-}
-
-.external-link {
-    display: flex;
 }
 
 #hero-image {
@@ -68,12 +63,15 @@ article a:hover, a:focus {
         flex-direction: column;
         float: left;
         justify-content: center;
-        width: 40%
+    }
+
+    aside a {
+        display: block;
+        text-wrap: nowrap;
     }
 
     section {
         display: inline;
         float: right;
-        width: 60%;
     }
 }
