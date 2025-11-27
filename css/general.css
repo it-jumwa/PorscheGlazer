@@ -1,5 +1,6 @@
 /* Mobile First View */
-* { box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -41,6 +42,18 @@ header {
     font-size: 2em;
     float: right;
     transform: translate(0, 16%);
+}
+
+menu {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 5em;
+    right: 0;
+    background-color: #d7d7d7;
+    border: solid 1px black;
 }
 
 nav a {
@@ -116,7 +129,11 @@ h1 {
     }
 
     nav {
+        position: relative;
         float: right;
+        top: 0;
+        background-color: white;
+        border: none;
     }
 
     nav a {
